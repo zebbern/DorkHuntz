@@ -43,11 +43,11 @@
    ```
 2. **Install Required Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pip install customtkinter requests beautifulsoup4 googlesearch-python
    ```
 3. **Run the Application**:
    ```bash
-   python premium_osint_gui.py
+   python main.py
    ```
 4. **Start Gathering Intelligence!** 🕵️‍♂️
 

@@ -68,8 +68,11 @@
 ---
 
 ## 📸 GUI & Usage
+![image](https://github.com/user-attachments/assets/4ed1dc6c-406d-4baf-9c2b-225ea50eb5f2)
+![image](https://github.com/user-attachments/assets/5eedef59-9789-4192-b496-44a8be30bec8)
+![image](https://github.com/user-attachments/assets/c85914fa-618c-435c-8299-9693bd7353b4)
 
-![gui](https://github.com/user-attachments/assets/daedea19-3d62-4d32-be37-fb3788702d81)
+
 
 1. **Load Dorks** - Select predefined dork files or input manually.
 2. **Search** - Run Google Dorking & Web Scraping with one click.

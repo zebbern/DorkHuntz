@@ -1,0 +1,9 @@
+{
+    "Socials": ["instagram.com", "facebook.com", "twitter.com", "tiktok.com", "snapchat.com", "pinterest.com"],
+    "Work": ["linkedin.com", "glassdoor.com", "indeed.com", "crunchbase.com"],
+    "Forums": ["reddit.com", "4chan.org", "forum", "disqus.com"],
+    "News": ["nytimes.com", "cnn.com", "bbc.co.uk", "theguardian.com"],
+    "Vulnerabilities": ["exploit-db.com", "packetstormsecurity.com", "securityfocus.com", "vulndb.com"],
+    "GitHub": ["github.com", "gitlab.com", "bitbucket.org"],
+    "Personal": ["about.me", "whitepages.com", "spokeo.com", "peoplesearch.com"]
+}

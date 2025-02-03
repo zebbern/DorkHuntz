@@ -1,0 +1,67 @@
+site:site.com (ext:doc OR ext:docx OR ext:odt OR ext:pdf OR ext:rtf OR ext:ppt OR ext:pptx OR ext:csv OR ext:xls OR ext:xlsx OR ext:txt OR ext:xml OR ext:json OR ext:zip OR ext:rar OR ext:md OR ext:log OR ext:bak OR ext:conf OR ext:sql)
+
+site:site.com intext:"sql syntax near" OR intext:"syntax error" OR intext:"unexpected end of SQL" OR intext:"Warning: mysql_" OR intext:"pg_connect()" OR intext:"error in your SQL syntax" OR intext:"OLE DB Provider for SQL Server"
+
+site:site.com (ext:doc OR ext:docx OR ext:pdf OR ext:xls OR ext:xlsx OR ext:sql OR ext:xml OR ext:json OR ext:log OR ext:conf OR ext:bak OR ext:ini OR ext:env OR ext:yaml OR ext:md OR ext:csv OR ext:txt OR ext:msg OR ext:old)
+
+site:site.com (inurl:login OR inurl:admin OR inurl:signin OR inurl:signup OR inurl:register OR inurl:user OR inurl:account OR inurl:auth OR inurl:portal OR inurl:access)
+
+site:site.com (intext:"SQL syntax error" OR intext:"unexpected end of SQL" OR intext:"Warning: mysql_" OR intext:"MySQL server version" OR intext:"error in your SQL syntax" OR intext:"Invalid query" OR intext:"supplied argument is not a valid MySQL" OR intext:"Unclosed quotation mark after" OR intext:"Microsoft OLE DB Provider for SQL Server" OR intext:"java.sql.SQLException" OR intext:"Query failed" OR intext:"You have an error in your SQL syntax")
+
+site:site.com (intext:"api_key" OR intext:"apiToken" OR intext:"access_token" OR intext:"auth_token" OR intext:"secret_key" OR intext:"AWS_ACCESS_KEY_ID" OR intext:"AWS_SECRET_ACCESS_KEY" OR intext:"Authorization: Bearer" OR intext:"firebaseApiKey" OR intext:"GCP_API_KEY" OR intext:"stripe_api_key" OR intext:"token")
+
+site:site.com (inurl:config OR inurl:configuration OR inurl:settings OR inurl:setup OR inurl:env OR inurl:database OR inurl:docker OR inurl:kubernetes) (ext:xml OR ext:json OR ext:yaml OR ext:ini OR ext:env OR ext:conf OR ext:bak OR ext:cfg OR ext:properties)
+
+site:site.com (intitle:"index of /" OR intitle:"index of" OR inurl:ftp OR inurl:files OR inurl:backup OR inurl:documents OR inurl:uploads OR inurl:data OR inurl:content) -intext:"html" -intext:"javascript"
+
+site:site.com (inurl:backup OR inurl:bak OR inurl:old OR inurl:archive OR inurl:temp OR inurl:snapshot OR inurl:backup OR inurl:revisions OR inurl:autosave OR inurl:recovery) (ext:zip OR ext:rar OR ext:tar OR ext:gz OR ext:bak OR ext:old OR ext:tmp OR ext:sav)
+
+site:site.com (inurl:.git OR inurl:.svn OR inurl:gitlab OR inurl:github OR inurl:gitbucket OR inurl:bitbucket OR inurl:repo OR inurl:source) (ext:php OR ext:asp OR ext:jsp OR ext:js OR ext:py OR ext:rb OR ext:java OR ext:c OR ext:cpp)
+
+site:site.com (intext:"error" OR intext:"warning" OR intext:"exception" OR intext:"fatal error" OR intext:"stack trace" OR intext:"debug" OR intext:"traceback" OR intext:"undefined" OR intext:"uncaught exception")
+
+site:site.com (inurl:phpmyadmin OR inurl:adminer OR inurl:dbadmin OR inurl:sql OR inurl:database OR inurl:db OR inurl:sql OR inurl:admin) (intext:"root" OR intext:"administrator" OR intext:"user" OR intext:"password")
+
+site:site.com * inurl:"/view/view.shtml" OR inurl:"/view/index.shtml" OR inurl:"/view/viewer_index.shtml" OR inurl:"/view/viewer_frame.shtml" OR inurl:"axis-cgi/mjpg" OR inurl:"video.cgi" OR inurl:"mjpg.cgi" OR intitle:"Network Camera" 
+
+site:site.com inurl:s3.amazonaws.com OR inurl:storage.googleapis.com OR inurl:azure OR inurl:openstack OR inurl:bucket OR intext:"bucket" OR intext:"s3://" OR intext:"gs://"
+
+site:site.com (inurl:signup OR inurl:register OR inurl:createaccount OR inurl:join OR inurl:subscribe OR inurl:subscribe)
+
+site:site.com (intext:"for internal use only" OR intext:"do not distribute" OR intext:"confidential" OR intext:"private API" OR intext:"private key" OR intext:"internal documentation")
+
+site:site.com (intext:"contact us" OR intext:"support" OR intext:"helpdesk" OR intext:"admin@site.com" OR intext:"@site.com")
+
+site:site.com (inurl:upload OR inurl:downloads OR inurl:filemanager OR inurl:uploads OR inurl:download) (intext:"upload your file" OR intext:"upload files" OR intext:"file manager")
+
+site:site.com (inurl:old OR inurl:deprecated OR inurl:v1 OR inurl:v2 OR inurl:api/v1 OR inurl:legacy OR inurl:archive OR inurl:obsolete OR inurl:oldapi)
+
+site:site.com (inurl:js OR inurl:css OR inurl:src OR inurl:includes) (intext:"TODO" OR intext:"FIXME" OR intext:"HACK" OR intext:"password" OR intext:"token" OR intext:"api_key" OR intext:"secret")
+
+site:site.com (inurl:github OR inurl:bitbucket OR inurl:gitlab OR inurl:svn OR inurl:source) (intext:"repository" OR intext:"src" OR intext:"source" OR intext:"fork me on GitHub" OR intext:"clone this repo")
+
+site:site.com (inurl:checkout OR inurl:payment OR inurl:cart OR inurl:order OR inurl:invoice) (intext:"credit card" OR intext:"secure payment" OR intext:"order confirmation")
+
+site:site.com (intext:"confidential" OR intext:"internal use only" OR intext:"do not share" OR intext:"for employees only" OR intext:"restricted access" OR intext:"proprietary information")
+
+site:site.com (inurl:reset OR inurl:forgotpassword OR inurl:recover OR inurl:passwordreset OR inurl:unlock) (intext:"recover your password" OR intext:"reset your password")
+
+site:site.com (inurl:devtools OR inurl:debug OR inurl:console OR inurl:monitoring OR inurl:insights OR inurl:analytics) (intitle:"Developer Tools" OR intitle:"Debug Console" OR intitle:"Monitoring Dashboard" OR intext:"debug mode")
+
+site:site.com (inurl:devtools OR inurl:debug OR inurl:console OR inurl:monitoring OR inurl:insights OR inurl:analytics) (intitle:"Developer Tools" OR intitle:"Debug Console" OR intitle:"Monitoring Dashboard" OR intext:"debug mode")
+
+site:site.com (intext:"dummy data" OR intext:"sample data" OR intext:"test data" OR intext:"lorem ipsum" OR intext:"placeholders")
+
+site:site.com (inurl:js OR ext:js) (intext:"var api_key" OR intext:"var token" OR intext:"const authToken" OR intext:"let password" OR intext:"const clientId" OR intext:"let secret")
+
+site:site.com (inurl:js OR ext:js) (intext:"var api_key" OR intext:"var token" OR intext:"const authToken" OR intext:"let password" OR intext:"const clientId" OR intext:"let secret")
+
+site:site.com (intext:"powered by WordPress" OR intext:"powered by Joomla" OR intext:"powered by Magento" OR intext:"Drupal") (intext:"version 3." OR intext:"version 4." OR intext:"v1" OR intext:"v2")
+
+site:site.com (inurl:shell OR inurl:cmd OR inurl:sh OR inurl:root OR inurl:upload) (ext:php OR ext:asp OR ext:jsp)
+
+site:site.com (inurl:../ OR inurl:%2e%2e%2f OR inurl:%252e%252e%252f OR inurl:/../../ OR inurl:/..%2f)
+
+site:site.com (inurl:../ OR inurl:%2e%2e%2f OR inurl:%252e%252e%252f OR inurl:/../../ OR inurl:/..%2f)
+
+site:site.com (inurl:robots.txt OR inurl:sitemap.xml OR inurl:sitemap_index.xml OR inurl:admin-sitemap.xml OR inurl:internal-sitemap.xml)

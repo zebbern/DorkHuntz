@@ -1,0 +1,14 @@
+site:*.* Name Or Username
+inurl:*.* Name Or Username
+*.* inurl:*.* Name Or Username
+"Name Or Username" (phone|contact|mobile|cell)
+*."Name Or Username" (phone|contact|mobile|cell)
+.*Name Or Username
+*."Name Or Username"
+intext:"Name Or Username"
+site:linkedin.com/in/ "Name Or Username"
+site:linkedin.com Name Or Username
+inurl:linkedin.com/in Name Or Username
+"Name Or Username" *
+related:"Name Or Username"*
+site:instagram.com "Name Or Username" -inurl:user

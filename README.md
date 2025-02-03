@@ -1,7 +1,6 @@
 # 🔍 PremiumOSINT
 > **Advanced OSINT & Bug Bounty Toolkit**
 
-![GitHub Repo stars](https://img.shields.io/github/stars/zebbern/PremiumOSINT?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/zebbern/PremiumOSINT?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/zebbern/PremiumOSINT?style=for-the-badge)
 

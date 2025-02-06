@@ -1,13 +1,13 @@
 # 🔍 Gui-Dorking
 > **Advanced OSINT & Bug Bounty Toolkit**
 
-![GitHub contributors](https://img.shields.io/github/contributors/zebbern/PremiumOSINT?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/zebbern/PremiumOSINT?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/zebbern/Gui-Dorking?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/zebbern/Gui-Dorking?style=for-the-badge)
 
 ---
 
 ## 📌 Overview
-**PremiumOSINT** is a cutting-edge **OSINT and Bug Bounty tool** designed for penetration testers, ethical hackers, and researchers. It provides a seamless experience for **Google Dorking, Web Scraping, and Archive Searching** while ensuring maximum efficiency and speed. 🚀
+**Gui-Dorking** is a cutting-edge **OSINT and Bug Bounty tool** designed for penetration testers, ethical hackers, and researchers. It provides a seamless experience for **Google Dorking, Web Scraping, and Archive Searching** while ensuring maximum efficiency and speed. 🚀
 
 🔎 **Core Features:**
 - **Google Dorking** - Advanced search queries for information gathering 🌍
@@ -38,8 +38,8 @@
 ### 🔹 Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/zebbern/PremiumOSINT.git
-   cd PremiumOSINT
+   git clone https://github.com/zebbern/Gui-Dorking.git
+   cd Gui-Dorking
    ```
 2. **Install Required Dependencies**:
    ```bash
@@ -97,20 +97,20 @@ Fetch results **faster than ever**, with real-time progress updates.
 
 ## 📤 Contribution Guidelines
 
-We ❤️ contributions! If you’d like to improve **PremiumOSINT**, follow these steps:
+We ❤️ contributions! If you’d like to improve **Gui-Dorking**, follow these steps:
 
 1. **Fork** the repository.
 2. **Create** a new branch: `feature/your-feature-name`.
 3. **Commit** your changes with a descriptive message.
 4. **Submit a Pull Request (PR)** and wait for review.
 
-📖 Read our [Contribution Guidelines](https://github.com/zebbern/PremiumOSINT/CONTRIBUTING.md) for more details.
+📖 Read our [Contribution Guidelines](https://github.com/zebbern/Gui-Dorking/CONTRIBUTING.md) for more details.
 
 ---
 
 ## 📜 License
 
-PremiumOSINT is licensed under the **MIT License**. See the [LICENSE](https://github.com/zebbern/PremiumOSINT/blob/main/LICENSE) file for details.
+Gui-Dorking is licensed under the **MIT License**. See the [LICENSE](https://github.com/zebbern/Gui-Dorking/blob/main/LICENSE) file for details.
 
 ---
 

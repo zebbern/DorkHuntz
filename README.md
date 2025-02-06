@@ -1,9 +1,5 @@
 # 🔍 Gui-Dorking
-> **Advanced OSINT & Bug Bounty Toolkit**
-
-![GitHub contributors](https://img.shields.io/github/contributors/zebbern/Gui-Dorking?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/zebbern/Gui-Dorking?style=for-the-badge)
-
+> **OSINT & Bug Bounty Toolkit**
 ---
 
 ## 📌 Overview

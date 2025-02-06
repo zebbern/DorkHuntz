@@ -1,4 +1,4 @@
-# 🔍 PremiumOSINT
+# 🔍 Gui-Dorking
 > **Advanced OSINT & Bug Bounty Toolkit**
 
 ![GitHub contributors](https://img.shields.io/github/contributors/zebbern/PremiumOSINT?style=for-the-badge)
